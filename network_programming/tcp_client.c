@@ -8,7 +8,7 @@
 #include <sys/socket.h> 
 
 #define portnumber 3333
-
+#define gy 1234
 int main(int argc, char *argv[]) 
 { 
 	struct in_addr gy;	
