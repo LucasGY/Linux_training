@@ -1,0 +1,66 @@
+make -C ./hlos/makerules/linux -f build_sgx.mk sgx
+make[1]: Entering directory `/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/vision_sdk/build/hlos/makerules/linux'
+make -fbuild_sgx.mk sgx_build SGX_TARGET=sgx_build
+make[2]: Entering directory `/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/vision_sdk/build/hlos/makerules/linux'
+make -C /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/vision_sdk/../ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/build/linux2/omap_linux ARCH=arm CROSS_COMPILE=/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/linaro/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- KERNELDIR=/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/vision_sdk/../ti_components/os_tools/linux/kernel/omap DISCIMAGE=/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/vision_sdk/../ti_components/os_tools/linux/targetfs
+make[3]: Entering directory `/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/build/linux2/omap_linux'
+  LD      /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/built-in.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/osfunc.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/mutils.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/mmap.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/module.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/pdump.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/proc.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/pvr_bridge_k.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/pvr_debug.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/mm.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/mutex.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/event.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/osperproc.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/buffer_manager.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/devicemem.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/handle.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/hash.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/lists.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/mem.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/mem_debug.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/metrics.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/osfunc_common.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/pdump_common.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/perproc.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/power.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/pvrsrv.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/ra.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/refcount.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/resman.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/bridged/bridged_support.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/bridged/bridged_pvr_bridge.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/system/omap/sysconfig.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/system/omap/sysutils.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/deviceclass.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/common/queue.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/dmabuf.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/bridged/sgx/bridged_sgx_bridge.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/devices/sgx/sgxinit.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/devices/sgx/sgxpower.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/devices/sgx/sgxreset.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/devices/sgx/sgxutils.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/devices/sgx/sgxkick.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/devices/sgx/sgxtransfer.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/devices/sgx/mmu.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/devices/sgx/pb.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/srvkm/env/linux/pvr_drm.o
+  LD [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/pvrsrvkm.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/3rdparty/bufferclass_example/bufferclass_example.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/3rdparty/bufferclass_example/bufferclass_example_linux.o
+  CC [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/services4/3rdparty/bufferclass_example/bufferclass_example_private.o
+  LD [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/bc_example.o
+  Building modules, stage 2.
+  MODPOST 2 modules
+  CC      /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/bc_example.mod.o
+  LD [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/bc_example.ko
+  CC      /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/pvrsrvkm.mod.o
+  LD [M]  /home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/binary2_omap_linux_release/target/kbuild/pvrsrvkm.ko
+make[3]: Leaving directory `/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/ti_components/os_tools/linux/sgx/omap5-sgx-ddk-linux/eurasia_km/eurasiacon/build/linux2/omap_linux'
+make[2]: Leaving directory `/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/vision_sdk/build/hlos/makerules/linux'
+make[1]: Leaving directory `/home/gy/PROCESSOR_SDK_VISION_03_02_00_00/vision_sdk/build/hlos/makerules/linux'
