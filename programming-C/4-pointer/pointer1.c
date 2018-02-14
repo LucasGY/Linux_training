@@ -16,6 +16,9 @@ struct{
 	char a;
 	int b;
 	char c;
+}s3;
+extern char *gy;
+extern int find_char(char **strings,int value);//检查第53行的函数调用的参数类型和返回值类型是否正确，通常将这类函数原型放在.h文件中，然后include进来！！！！
 int IsLittleEndian()
 {
     unsigned short i=1;
@@ -47,12 +50,12 @@ int main(int argc, char* argv[])
    	}
 	else
 	{
-		if(find_char(argv,97) == 1)
+		if(find_char(argv,97) == 1)//是否找到字符‘a’
 		{
-			printf("find 'a'\n ");
+			printf("Find the first 'a' in %s\n ",gy);
 		}
 		else
-			printf("cannot find 'a'\n");  	
+			printf("Cannot find 'a'\n");  	
 	}
 	return 0;	
 }
