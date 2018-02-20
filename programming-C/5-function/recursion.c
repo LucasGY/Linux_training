@@ -15,5 +15,5 @@ void main()
 {
 	unsigned int m;
 	scanf("%u",&m);
-	binary_to_ascii(4267);
+	binary_to_ascii(m);
 }

@@ -1,6 +1,7 @@
 #include<stdio.h>
+#include<stddef.h>
 #pragma pack()
-struct{
+struct S{
 	char a;
 	int b;
 	char c;
@@ -26,6 +27,7 @@ int IsLittleEndian()
 }
 int main(int argc, char* argv[])
 {
+	//printf("offset of b in struct s1: %u\n,(unsigned int)(offsetof(struct s1,b))");
 	printf("--------------查看指针变量的右值：针对64位操作系统----------------\n");
 	int a = 120;
 	int *b = &a;
