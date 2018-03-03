@@ -1,0 +1,1 @@
+cmd_/home/gy/linux_training/kernel_module_build/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/gy/linux_training/kernel_module_build/hello.ko /home/gy/linux_training/kernel_module_build/hello.o /home/gy/linux_training/kernel_module_build/hello.mod.o
