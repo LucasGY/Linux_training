@@ -1,3 +1,3 @@
 # linux_training
-Linux_training_by_gy
-# training by dw
+Linux training made by gy
+AND programming C
