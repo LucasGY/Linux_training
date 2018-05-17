@@ -4,11 +4,12 @@
 int bss_var;  //文件作用域，extern链接属性，静态变量，bss段
 int data_var0 = 1;//文件作用域，extern链接属性，静态变量，data段
 extern int a;//文件作用域，extern链接属性，静态变量，data段
-//extern int b;//文件作用域，extern链接属性，静态变量，data段
+extern int b;//文件作用域，extern链接属性，静态变量，data段
 static int c;//文件作用域，internal链接属性，静态变量，bss段
 void main()//文件作用域，extern链接属性，text段
 {
-	//printf("b = %d\n",b+1);
+	printf("a = %d\n",a);
+	printf("b = %d\n",b);
 	printf("_____________________________________\n");
 	int stack_var0 = 2;//代码段作用域，none链接属性，auto变量，stack段
 	printf("Stack location:\n");

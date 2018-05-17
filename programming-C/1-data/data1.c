@@ -23,9 +23,9 @@ void main()
 	float m;
 	double n;
 	long double o;
-	printf("size of float = %lu, FLT_MIN = %.10e, FLT_MAX = %.10e\n",sizeof(b),FLT_MIN,FLT_MAX);
-	printf("size of double = %lu, DBL_MIN = %.10e, DBL_MAX = %.10e\n",sizeof(b),DBL_MIN,DBL_MAX);
-	printf("size of long double = %lu, LDBL_MIN = %.10Le, LDBL_MAX = %.10Le\n",sizeof(b),LDBL_MIN,LDBL_MAX);
+	printf("size of float = %lu, FLT_MIN = %.10e, FLT_MAX = %.10e\n",sizeof(m),FLT_MIN,FLT_MAX);
+	printf("size of double = %lu, DBL_MIN = %.10e, DBL_MAX = %.10e\n",sizeof(n),DBL_MIN,DBL_MAX);
+	printf("size of long double = %lu, LDBL_MIN = %.10Le, LDBL_MAX = %.10Le\n",sizeof(o),LDBL_MIN,LDBL_MAX);
 
 	char g;
 	signed char h;
